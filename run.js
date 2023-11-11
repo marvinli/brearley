@@ -4,7 +4,11 @@ let x = 0;
 
 function moveMrPapas() {
   x = x + 20;
+
+  if (x - 300 > screen.width) {
+    x = 0;
+  }
   mrPapas.style.left = `${x}px`;
 }
 
-setInterval(moveMrPapas, 100);
+setInterval(moveMrPapas, 30);
