@@ -11,7 +11,7 @@ body {
   position: relative;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  top: 100px;
+  top: calc(50vh - 240px);
 }
 
 .head {
