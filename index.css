@@ -1,0 +1,27 @@
+body {
+  position: absolute;
+  background-image: url("tracks.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#mr-papas {
+  position: relative;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  left: 100px;
+  top: 100px;
+}
+
+.head {
+  position: absolute;
+  height: 150px;
+  left: 140px;
+  top: 10px;
+}
+
+.runner {
+  position: absolute;
+}
